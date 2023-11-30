@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서비스 이용 동의서</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="images/로고-행복커넥트_국문-가로.png" alt="행복커넥트CI" class="hcci">
+    <h2><u>인공지능(AI) 감성케어 지원사업 서비스 신청서(유의사항)</u></h2>
+
+    <br>
+    <p><strong>[용어의 정의]</strong></p>
+    <ol>
+      <li>“인공지능(AI) 감성케어 지원사업 서비스 (이하, ‘서비스’)” 란 AI기기(NUGU스피커)와 홈 IoT기기 등을 통해 음원(FLO), 말벗, 날씨정보, 뉴스, 검색 등 각종 정보 등을 제공하는
+        것을 말합니다.</li>
+      <li>“이용자”란 “”의 선정절차를 통해 선정된 ‘서비스’의 실제 사용자를 말합니다.</li>
+      <li>“댁내 ICT 케어 기기(이하, ‘케어기기’)”는 이용자 거주공간에 설치한 AI스피커, 포켓파이, 홈IoT 기기로, 인터넷망 연결을 통해 ‘서비스’를 이용할 수 있는 기기를 말합니다.</li>
+    </ol>
+    <br>
+    <p><strong>[서비스 제공 조건]</strong></p>
+    <ol>
+      <li>서비스는 행복커넥트, SK텔레콤, “”과 협력하여
+        제공하는 서비스로서, 지방자치단체 관할 내 주민등록을 하고 실제 거주해야 합니다.
+      </li>
+      <li class="red"><strong><u>케어 기기는 이용자의 소유가 아니며, 이용자는 서비스 제공을 위한 케어 기기
+            설치 및 서비스 종료 시 케어 기기 반납/회수 절차에 협조하여야 합니다.
+          </u></strong></li>
+    </ol>
+    <br>
+    <p><strong>[서비스 제공 기간]</strong></p>
+    <ol>
+      <li>서비스는 행복커넥트가 케어기기들을 서비스 이용자 댁내 설치한 날로부터 “”와 행복커넥트 간의 계약 기간 동안 제공됩니다.</li>
+    </ol>
+    <br>
+    <p><strong>[서비스 해지, 종료 시 유의사항</strong></p>
+    <ol>
+      <li>서비스 제공 기간 만료 또는 해지 등으로 서비스 종료 시, “”은 종료일로부터 최소 30일 전에 이용자에게 해당 사실을 알립니다.</li>
+      <li>이용자의 타지방자치단체 관할로의 이사, 주민등록 이전, 사망 시에도 서비스는
+        해지 되며, 해당 사유가 발생하는 경우 이용자는 “”에 해당사실을 통지하여야 합니다
+      </li>
+      <p class="blue">※이사, 주민등록 이전 시에는 사전에 (☎<label for="master_number"><input type="tel" name="관리자 연락처"
+            id="master_number" placeholder="ex)01091720469"></label>)로 연락바랍니다</p>
+      <li>이용자는 서비스 이용권한 및 기타 이용상 지위를 타인에게 양도, 증여, 담보 제공
+        할 수 없습니다.
+      </li>
+      <li>서비스가 종료되는 경우, 이용자는 이용 중인 케어기기 일체를 “”에 반납하여야 하며, 미반납 시 손해배상책임이 부과될 수 있습니다.</li>
+    </ol>
+    <br>
+    <p>위와 같은 서비스 이용에 동의하십니까?</p>
+    <form action="" class="cheackbox_form">
+      <label for="agree_yes">동의함<input type="radio" value="yes" name="yes_or_no_cheakbox" id="agree_yes"></label>
+      <label for="agree_no">동의하지 않음<input type="radio" value="no" name="yes_or_no_cheakbox" id="agree_no"></label>
+    </form>
+    <div class="user">
+      <label for="user_name">성함<input type="text" id="user_name" placeholder="ex)홍길동" required></label>
+      <label for="user_phone">연락처<input type="tel" id="user_phone" placeholder="ex)01091720469" required></label>
+      <label for="user_city">지역<input type="text" id="user_city" placeholder="ex)창원시" required></label>
+      <label for="user_date">작성일</label><input type="date" id="user_date" required>
+      <input type="submit" value="저장" style="margin-top: 30px; background-color: red; color: white;">
+    </div>
+
+  </div>
+
+</body>
+
+</html>

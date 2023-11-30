@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 40px;
+  width: 840px;
+  height: auto;
+  position: relative;
+  justify-content: space-between;
+}
+
+.hcci {
+  width: 130px;
+  margin: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h2 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.cheackbox_form {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding: 20px;
+}
+
+.cheackbox_form label {
+  margin-right: 55px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
