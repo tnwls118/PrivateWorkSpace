@@ -47,7 +47,7 @@ try:
 
     start_time_task2 = time.time()
     print("엑셀 저장 작업 시작")
-    excel_path = r"C:\Users\82109\Desktop\새 Microsoft Excel 워크시트.xlsx"
+    excel_path = r"C:\Users\82109\Desktop\frontspace\privateworkspace\1.페이지소스출력\새 Microsoft Excel 워크시트.xlsx"
     excel = pd.DataFrame(data, columns=["content"])
     excel.to_excel(excel_path, index=True)
     end_time_task2 = time.time()
