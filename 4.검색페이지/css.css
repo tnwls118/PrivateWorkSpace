@@ -1,0 +1,97 @@
+:root {
+  --red-color: red;
+  --blue-color: blue;
+  --yellow-color: yellow;
+  --green-color: green;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.search {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 40px;
+}
+
+.d {
+  color: var(--blue-color);
+  font-size: 130px;
+}
+
+.d_1 {
+  color: var(--red-color);
+}
+
+.o {
+  color: var(--yellow-color);
+}
+
+.n {
+  color: var(--blue-color);
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+
+#search_box {
+  border-radius: 30px;
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  position: relative;
+}
+
+.material-icons {
+  position: absolute;
+  left: 10px;
+  /* 원하는 만큼 왼쪽 위치 조절 */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  /* 원하는 색상으로 조절 */
+  cursor: pointer;
+  /* 선택 사항: 포인터 커서 추가 */
+}
+
+#search_box {
+  padding-left: 40px;
+  /* 검색 아이콘을 가려지지 않도록 텍스트 상자 왼쪽에 여백 추가 */
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.top_p {
+  margin-left: 20px;
+  font-family: 맑은 고딕;
+}
