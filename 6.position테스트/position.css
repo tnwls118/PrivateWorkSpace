@@ -1,0 +1,48 @@
+#testA {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  background-color: brown;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+#testB {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  background-color: blue;
+  left: 2000px;
+  top: 1000px;
+
+}
+
+#testC {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  background-color: red;
+  left: 900px;
+  top: 500px;
+}
+
+#testD {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 400px;
+  top: 200px;
+}
+
+.testE {
+  position: absolute;
+  left: 440px;
+  top: 520px;
+  color: white;
+}
