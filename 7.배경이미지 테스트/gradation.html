@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gradationTest</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+
+    .linear {
+      background: linear-gradient(to right bottom, blue, white);
+    }
+
+    .radial {
+      background: radial-gradient(closest-side, white, yellow, red);
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3>선형 그라데이션</h3>
+  <div class="linear"></div>
+  <h3>원형 그라데이션</h3>
+  <div class="radial"></div>
+</body>
+
+</html>

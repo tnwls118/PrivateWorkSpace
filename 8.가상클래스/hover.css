@@ -1,0 +1,38 @@
+#container {
+  border: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+  top: 30px;
+  background: linear-gradient(to right bottom, yellow, white);
+
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  letter-spacing: 1px;
+  margin: 2px 90px;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  cursor: grab;
+}
+
+li:link {
+  color: black;
+
+}
+
+li:visited {
+  color: blue;
+}
+
+li:hover {
+  background-color: #ccc;
+}
+
+li:active {
+  background-color: red;
+}
