@@ -1,0 +1,59 @@
+.container {
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #000;
+}
+
+.box_border {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  float: left;
+  margin: 30px 50px;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box:hover {
+  transition: all 2s ease-in;
+  transform: rotateX(45deg) translateX(20px);
+}
+
+img {
+  animation: shape 3s infinite, rotate 3s infinite;
+  width: 100px;
+  height: 100px;
+  margin: 30px 50px;
+}
+
+@keyframes shape {
+  from {
+    border: 1px solid transparent;
+  }
+
+  to {
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotate {
+
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
